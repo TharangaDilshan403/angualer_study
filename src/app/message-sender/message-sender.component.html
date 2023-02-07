@@ -31,7 +31,7 @@
 <!--  </mat-form-field>-->
 
   <div>
-    <table [dataSource]="dataSource" class="mat-elevation-z8 mb-5 mt-5" mat-table style="border-radius: 10px">
+    <table [dataSource]="dataSource" class="mat-elevation-z8 mt-5" mat-table style="border-radius: 10px">
       <!-- Checkbox Column -->
       <ng-container matColumnDef="select">
         <th *matHeaderCellDef mat-header-cell>
@@ -79,5 +79,9 @@
           mat-row>
       </tr>
     </table>
+    <div class="d-flex justify-content-end mt-5 mb-5">
+      <button (click)="sendMessage()" mat-raised-button color="primary">Send Messages
+        <mat-icon>send</mat-icon></button>
+    </div>
   </div>
 </div>

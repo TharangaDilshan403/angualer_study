@@ -76,4 +76,13 @@ export class MessageSenderComponent implements OnInit {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
+
+  sendMessage(){
+    const numSelected = this.selection.selected.length;
+    if(numSelected>0){
+      console.log("send message");
+    }else{
+      alert("Please select first....")
+    }
+  }
 }

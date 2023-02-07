@@ -1,0 +1,21 @@
+/*.message-form{*/
+/*  max-width: 100%;*/
+/*  max-height: 10%;*/
+/*}*/
+.message-input{
+  width: 100%;
+}
+.mat-form-field {
+  padding:  10px;
+  border-radius: 10px;
+  background-color: #dfe6e9;
+}
+.file-upload-container{
+  background-color: #dfe6e9 ;
+  border-radius: 10px;
+  border: #3F51B5 dashed 2px
+}
+
+table {
+  width: 100%;
+}
